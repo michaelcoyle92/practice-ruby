@@ -6,3 +6,5 @@ item3 = {color: "majenta", price: 42, condition: "new"}
 p item1
 p item2
 p item3
+
+p "This item is #{item3[:color]}"
